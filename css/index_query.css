@@ -1,0 +1,192 @@
+@media screen and (max-width: 1085px) {
+    .nav_element ul{
+        float: none;
+    }
+    nav {
+        height: 54px;
+    }
+    nav .container .logo img {
+        margin-top: 0px;
+        width: 148px;
+    }
+    nav .container .logo{
+        display: block;
+        margin: auto;
+    }
+    .hamburger{
+        position: fixed;
+        top: 1.3%;
+        left: 10px;
+        z-index: 99999;
+    }
+    .hamburger span{
+        border-bottom: 2px solid #fff;
+        height: 7px;
+        width: 20px;
+        display: block;
+    } 
+    #navcheck:checked ~ #navbar{
+        height: 100%;
+        background-color: black;
+        z-index: 9999;
+        transition: all .4s ease-in-out ;
+
+
+    }
+    #navcheck:checked ~ #navbar .circle{
+        display: block;
+        text-align: center;
+    }
+    #navcheck:checked ~ #navbar .circle:first-of-type{
+        margin-top: 10px;
+    }
+    #navcheck:checked ~ #navbar ul{
+        display: block;
+    }
+    #navcheck:checked ~ #navbar ul li{
+        display: block;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    #navcheck:checked ~ #navbar .nav_element{
+        float: none;
+        width: 100%;
+    }
+    /* header .hero section */
+    .div4_last a img {
+        top: 7px;
+        left: 5px;
+        width: 16px;
+    }
+    .div4_last a {
+        padding: 6px 18px 6px 26px;
+        font-size: 13px;
+    }
+    header .heroText h1{
+        font-size: 20px;
+    }
+    .heroText p{
+        width: 70%;
+    }
+    .sectionTwo{
+            position: static;
+            flex-wrap : wrap;
+        }
+    .sectionTwo .navigator_wrapper {
+        text-align: center;
+        width: 90%;
+        MARGIN: 0px 0px 20px auto;
+    }
+    .sectionTwo .fixflex{
+        display: block;
+    }
+    /* sec 3 */
+    .sec3{
+        width: 100%;
+        height: max-content;
+        position: relative;
+        margin-top: 90px;
+    }
+    .sec3 .sec3_content{
+        position: static;
+        width: 100%;
+        overflow: hidden;
+        height: 883px;
+    }
+    .sec3 .sec3_content .sec3_image {
+        width: 100%;
+        height: 50%;
+    }
+    .sec3 .sec3_navigators {
+        bottom: 4px;
+        right: 36%;
+    }
+    .sec3 .sec3_side_content {
+        width: 100%;
+        padding: 5%;
+    }
+    .sec3 .sec3_side_content h1 {
+        font-size: 20px;
+    }
+    .sec3 .sec3_side_content p {
+        margin-bottom: 0px;
+        font-size: 13px;
+    }
+    .sec3 .content_images1 {
+        width: 100%;
+        height: 147px;
+        margin-top: 6%;
+    }
+    .sec3 .sec3btns {
+        margin-top: 8%;
+    }
+
+    /* sec4 */
+    .sec4_div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        grid-auto-flow: column;
+        }
+        
+        .sec4_map { grid-area: 1 / 1 / 3 / 3; }
+        .div4_contant { grid-area: 3 / 1 / 4 / 3;padding: 20px 30px; }
+        .div4_image { grid-area: 4 / 1 / 6 / 2; }
+        .div4_last { grid-area: 4 / 2 / 6 / 3; padding: 4% 8%;}
+        .div4_last p{
+            margin: 10% 0px 20%;
+        }
+        .sec4{
+            height: 767px ;
+        }
+        /* sec5 */
+        .sec5{
+            margin: 110px auto 50px;
+        }
+        .sec5 .sec5_content{
+            width: 95%;
+        }
+        .parent {
+            height: 332pc;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(12, 1fr);
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            }
+            
+            .div1 { grid-area: 1 / 1 / 2 / 2; }
+            .div2 { grid-area: 2 / 1 / 3 / 2; }
+            .div3 { grid-area: 3 / 1 / 4 / 2; }
+            .div4 { grid-area: 4 / 1 / 5 / 2; }
+            .div5 { grid-area: 5 / 1 / 7 / 2; }
+            .div6 { grid-area: 7 / 1 / 8 / 2; }
+            .div7 { grid-area: 8 / 1 / 10 / 2; }
+            .div8 { grid-area: 10 / 1 / 11 / 2; }
+            .div9 { grid-area: 11 / 1 / 13 / 2; }
+
+        .sec7 .sec7_content {
+            width: 100%;
+            margin: auto;
+        }
+        .sec7 .sec7_content h2,
+        .sec7 .sec7_content p{
+            text-align: center;
+        }
+        .sec7 .sec7_content form input[type="email"] {
+            width: 63%;
+            display: block;
+            margin: auto;
+        }
+        .sec7 .sec7_content form a{
+            display: block;
+            width: 30%;
+            margin: 1% auto;
+}
+        
+
+  }
